@@ -1,0 +1,16 @@
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/unicode</item>
+    </style>
+    <style name="AppTheme.FullScreen" parent="Theme.Material3.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fontFamily">@font/unicode</item>
+    </style>    
+    <style name="MaterialDialog" parent="Theme.Material3.Light.Dialog">  
+    </style> <!-- Mismatched closing tag --> 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+</resources>
